@@ -43,6 +43,8 @@ public class ParkingLotDemoRunner {
 		Optional<ParkingTicket> carTicket = parkingLot.parkVehicle(car);
 		Optional<ParkingTicket> truckTicket = parkingLot.parkVehicle(truck);
 		
+		bikeTicket.get().printTicket();;
+		
 		floor1.displayAvailability();
 		floor2.displayAvailability();
 		
